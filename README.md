@@ -27,3 +27,4 @@ calculates squared error of prediction (=h(x)- y) values to estimate how optimal
 θj:=θj−α(∂/∂θj)J(θ0,θ1) where j = 0,1    
 J: cost function  
 Gradient descent makes small step(α) toward the direction where J value decreases. j=0,1 is feature indices which required to be updated simultaneously to make this model physical. α is called learning rate which might be a critical factor for convergence of learning process.
+

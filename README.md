@@ -38,7 +38,7 @@ each feature of a training example x<sub>j</sub><sup>(i)</sup> becomes an elemen
   
   
 ###feature rescaling (or normalization)
-#####Uneven range of feature value tortures developers who want to find optimal learning rate.  
+#####Uneven range of feature value tortures developers who want to find an optimal learning rate.  
 >Too large range: too many iterations   
 >Too small range: overshoot(divergence)   
 >One cost function can have both above (e.g. think skewed contour plot)   

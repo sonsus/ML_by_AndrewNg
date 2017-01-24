@@ -37,7 +37,7 @@ each feature of a training example x<sub>j</sub><sup>(i)</sup> becomes an elemen
 >Where h(theta)=transpose(Theta)x<sup>(i)</sup>= theta0+theta1*x1+theta2*x2...(to n th sum)
   
   
-###feature rescaling (or normalization
+###feature rescaling (or normalization)
 Uneven range of feature value tortures developer who want to find optimal learning rate.  
 >Too large range: too many iterations   
 >Too small range: overshoot(divergence)   

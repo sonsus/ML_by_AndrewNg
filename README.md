@@ -47,3 +47,12 @@ each feature of a training example x<sub>j</sub><sup>(i)</sup> becomes an elemen
 #####two ways for normalization
 >x'=x-u/range  
 >x'=x-u/stdev
+
+### Determining Learning Rate
+##### slow convergence: 
+when alpha is too miniscule or sometimes when alpha value is close to the threshold value to divergence
+##### divergence:
+overshoot when learning rate is too huge
+
+If J(theta) decreases lesser than, with rule of thumb, 10<sup>-3</sup> then it is considered converged.
+Determining threshold value (which was 10<sup>-3</sup>) is difficult part of ML. 

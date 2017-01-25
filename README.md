@@ -55,4 +55,16 @@ when alpha is too miniscule or sometimes when alpha value is close to the thresh
 overshoot when learning rate is too huge
 
 If J(theta) decreases lesser than, with rule of thumb, 10<sup>-3</sup> then it is considered converged.
-Determining threshold value (which was 10<sup>-3</sup>) is difficult part of ML. 
+Determining threshold value (which was 10<sup>-3</sup>) is difficult part of ML.
+
+###Combining Parameters
+if given features could be combined into lesser number of brilliant way, it could be a good simplification
+  
+  
+###Polynomial Regression
+To make a better fit, one can make linear regression function into polynomial.
+>h=a<sub>0</sub>+a<sub>1</sub>x+a<sub>2</sub>x<sup>2</sup>+...
+and this could be considered multivar linear regression
+>h=a<sub>0</sub>+a<sub>1</sub>x+a<sub>2</sub>y+...
+
+##### square, cube, quadruple and higher order variable has different range so normalization is required

@@ -63,8 +63,8 @@ if given features could be combined into lesser number of brilliant way, it coul
   
 ###Polynomial Regression
 To make a better fit, one can make linear regression function into polynomial.
->h=a<sub>0</sub>+a<sub>1</sub>x+a<sub>2</sub>x<sup>2</sup>+...
-and this could be considered multivar linear regression
+>h=a<sub>0</sub>+a<sub>1</sub>x+a<sub>2</sub>x<sup>2</sup>+...  
+and this could be considered multivar linear regression  
 >h=a<sub>0</sub>+a<sub>1</sub>x+a<sub>2</sub>y+...
 
 ##### square, cube, quadruple and higher order variable has different range so normalization is required

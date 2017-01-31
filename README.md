@@ -34,8 +34,16 @@ Instead of using a form of sum, use vector multiplication for convenience (and t
 each feature of a training example x<sub>j</sub><sup>(i)</sup> becomes an element of a vector x<sup>(i)</sup> with x<sub>0</sub> =1
 
 >J(theta)=sum<sub>i=0 to m</sub>(transpose(theta)x<sup>(i)</sup> - y<sup>(i)</sup>)<sup>2</sup>     
->Where h(theta)=transpose(Theta)x<sup>(i)</sup>= theta0+theta1*x1+theta2*x2...(to n th sum)
-  
+>Where h(theta)=transpose(Theta)x<sup>(i)</sup>= theta0+theta1*x1+theta2*x2...(to n th sum)   
+
+#####If we put all training examples (column vectors) into a matrix by row-wise
+#####(and let theta be a column vector then...
+> ┌ 1 x<sup>(1)</sup> ┐ ┌ theta0  ┐ 
+  │ 1 x<sup>(2)</sup> │ │ theta1  │ 
+  │        ...        │ │   ...   │   =  X\*theta   
+  └ 1 x<sup>(m)</sup> ┘ └ theta n ┘      m x 1 column vector
+         m x n+1          n+1 x 1   
+  
   
 ###feature rescaling (or normalization)
 #####Uneven range of feature value tortures developers who want to find an optimal learning rate.  

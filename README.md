@@ -38,13 +38,9 @@ each feature of a training example x<sub>j</sub><sup>(i)</sup> becomes an elemen
 
 #####If we put all training examples (column vectors) into a matrix by row-wise
 #####(and let theta be a column vector then...
-> ┌ 1 x<sup>(1)</sup> ┐ ┌ theta0  ┐ 
-  │ 1 x<sup>(2)</sup> │ │ theta1  │ 
-  │        ...        │ │   ...   │   =  X\*theta   
-  └ 1 x<sup>(m)</sup> ┘ └ theta n ┘      m x 1 column vector
-         m x n+1          n+1 x 1   
-  
-  
+> h<sub>theta</sub>(X) (m x 1 column vector) = X (m x n+1) * theta (n+1 x 1)    
+	   
+	   
 ###feature rescaling (or normalization)
 #####Uneven range of feature value tortures developers who want to find an optimal learning rate.  
 >Too large range: too many iterations   

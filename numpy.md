@@ -14,3 +14,8 @@ reshape(2,-1) do not change the original, just return reshaped matrix
 resize(2,5) change the original to be in (2,5) size
 
 a.T==transpose of a
+
+
+
+###continue reading from stacking 
+https://docs.scipy.org/doc/numpy-dev/user/quickstart.html#stacking-together-different-arrays

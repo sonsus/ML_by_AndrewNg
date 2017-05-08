@@ -20,7 +20,9 @@ training set -> learning algorithm =>> hypothesis
 univariate linear regression == linear regression with one variable
 
 when y value (predicted value) is limited to be discrete --> classification
-							   is continuous --> regression
+							   is continuous --> regression            
+							           
+								   
 Week1: Linear-regression with one var
 ---------------------------------------------------------------------------
 ### Cost function:   
